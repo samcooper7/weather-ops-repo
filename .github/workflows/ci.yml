@@ -29,8 +29,8 @@ jobs:
 
       - name: Fetch latest weather
         env:
-          WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
-          CITY: ${{ secrets.CITY }}
+          WEATHER_API_KEY: ${{ SECRETS.WEATHER_API_KEY }}
+          CITY: ${{ SECRETS.CITY }}
         run: node fetchWeather.js
       
       - name: Commit weather data if changed
@@ -42,7 +42,7 @@ jobs:
           git push || echo "Push failed or no changes"
 
       - name: Trigger Render Deploy
-        run: curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
+        run: curl -X POST ${{ SECRETS.RENDER_DEPLOY_HOOK }}
 
 
 
