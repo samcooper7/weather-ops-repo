@@ -8,30 +8,30 @@
       "id": 800,
       "main": "Clear",
       "description": "clear sky",
-      "icon": "01n"
+      "icon": "01d"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 20.77,
-    "feels_like": 21.04,
-    "temp_min": 19.58,
-    "temp_max": 21.94,
+    "temp": 24.71,
+    "feels_like": 25.09,
+    "temp_min": 23.77,
+    "temp_max": 26.12,
     "pressure": 1018,
-    "humidity": 82,
+    "humidity": 71,
     "sea_level": 1018,
     "grnd_level": 1014
   },
   "visibility": 10000,
   "wind": {
-    "speed": 1.79,
-    "deg": 57,
-    "gust": 2.68
+    "speed": 3.13,
+    "deg": 38,
+    "gust": 4.92
   },
   "clouds": {
     "all": 6
   },
-  "dt": 1782358621,
+  "dt": 1782373360,
   "sys": {
     "type": 2,
     "id": 2075535,
@@ -43,5 +43,5 @@
   "id": 2643743,
   "name": "London",
   "cod": 200,
-  "_last_updated_utc": "2026-06-25T03:46:30.147Z"
+  "_last_updated_utc": "2026-06-25T07:46:35.543Z"
 }
