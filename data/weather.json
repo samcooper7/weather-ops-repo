@@ -8,30 +8,30 @@
       "id": 804,
       "main": "Clouds",
       "description": "overcast clouds",
-      "icon": "04d"
+      "icon": "04n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 27.48,
-    "feels_like": 26.69,
-    "temp_min": 26.68,
-    "temp_max": 28.34,
+    "temp": 25.78,
+    "feels_like": 25.25,
+    "temp_min": 24.41,
+    "temp_max": 26.67,
     "pressure": 1016,
-    "humidity": 29,
+    "humidity": 32,
     "sea_level": 1016,
-    "grnd_level": 1011
+    "grnd_level": 1012
   },
   "visibility": 10000,
   "wind": {
-    "speed": 4.02,
-    "deg": 301,
-    "gust": 7.15
+    "speed": 2.24,
+    "deg": 304,
+    "gust": 4.02
   },
   "clouds": {
     "all": 100
   },
-  "dt": 1783367420,
+  "dt": 1783373572,
   "sys": {
     "type": 2,
     "id": 2075535,
@@ -43,5 +43,5 @@
   "id": 2643743,
   "name": "London",
   "cod": 200,
-  "_last_updated_utc": "2026-07-06T19:59:50.862Z"
+  "_last_updated_utc": "2026-07-06T21:43:44.145Z"
 }
